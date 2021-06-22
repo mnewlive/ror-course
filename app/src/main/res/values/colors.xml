@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="launcher_background">@color/white</color>
+    <color name="ror_main">#F5655E</color>
 </resources>
