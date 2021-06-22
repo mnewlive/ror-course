@@ -2,6 +2,9 @@ package com.mandarine.ror.course.composables
 
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
@@ -24,12 +27,12 @@ fun FavoriteButton(
     ) {
         when (isFavoriteState.value) {
             true -> Icon(
-                painter = painterResource(id = R.drawable.ic_heart),
+                imageVector = Icons.Filled.Favorite,
                 contentDescription = stringResource(id = R.string.favorite_remove),
                 tint = Color.Red,
             )
             false -> Icon(
-                painter = painterResource(id = R.drawable.ic_heart_outline),
+                imageVector = Icons.Filled.FavoriteBorder,
                 contentDescription = stringResource(id = R.string.favorite_add),
                 tint = Color.Gray,
             )
