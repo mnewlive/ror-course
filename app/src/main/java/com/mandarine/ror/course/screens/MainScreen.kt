@@ -37,7 +37,7 @@ fun MainScreen(
     BackgroundSurface {
         val searchQueryState = remember { mutableStateOf(searchQuery) }
         LazyColumn(
-            contentPadding = PaddingValues(bottom = Medium),
+            contentPadding = PaddingValues(top = Medium, bottom = Medium),
         ) {
             item {
                 SearchTextField(
