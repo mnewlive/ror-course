@@ -1,4 +1,4 @@
-package com.mandarine.ror.course
+package com.mandarine.ror.course.data
 
 data class Session(
     val id: String,
@@ -41,5 +41,13 @@ val MockSessions = listOf(
         timeInterval = "19:00-21:00",
         description = "Dev Environment Setup",
         imageUrl = "https://media-exp3.licdn.com/dms/image/C4D03AQEb7hWJGVJk0w/profile-displayphoto-shrink_800_800/0/1620825152020?e=1629936000&v=beta&t=ABymvdUb_zuzPrXyQi-GXrQ37unP79dD1ThWn2HICIs"
+    ),
+    Session(
+        id = "5",
+        speaker = "Error",
+        date = "02 July",
+        timeInterval = "19:00-21:00",
+        description = "Handle errors",
+        imageUrl = "error"
     )
 )
