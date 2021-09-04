@@ -6,7 +6,7 @@ import androidx.compose.foundation.layout.BoxScope
 import androidx.compose.material.Card
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import com.mandarine.ror.course.CardElevation
+import com.mandarine.ror.course.screens.CardElevation
 
 @Composable
 fun ClickableCard(

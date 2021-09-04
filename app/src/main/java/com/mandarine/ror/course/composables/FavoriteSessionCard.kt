@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.mandarine.ror.course.Small
+import com.mandarine.ror.course.screens.Small
 import com.mandarine.ror.course.data.MockSessions
 import com.mandarine.ror.course.data.Session
 import com.mandarine.ror.course.ui.RorTheme

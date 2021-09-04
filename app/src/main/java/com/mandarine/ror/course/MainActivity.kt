@@ -11,6 +11,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.compose.runtime.Composable
 import com.mandarine.ror.course.data.MockSessions
 import com.mandarine.ror.course.navigation.Destinations
+import com.mandarine.ror.course.screens.MainScreen
 import com.mandarine.ror.course.screens.SessionDetailsScreen
 import com.mandarine.ror.course.ui.RorTheme
 
