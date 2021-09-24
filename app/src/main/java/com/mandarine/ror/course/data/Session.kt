@@ -14,25 +14,25 @@ val MockSessions = listOf(
         id = "1",
         speaker = "Andrei Lisnic",
         date = "28 June",
-        timeInterval = "19:00-21:00",
+        timeInterval = "18:00-20:00",
         description = "Ruby Intro",
-        imageUrl = "https://media-exp3.licdn.com/dms/image/C4D03AQFElJwdY2pzWw/profile-displayphoto-shrink_800_800/0/1577561303245?e=1629936000&v=beta&t=OUHwjBbUCjAK1FjkrJUE3WwZ2P43OmqvuAN_cig8rJQ"
+        imageUrl = "https://media-exp1.licdn.com/dms/image/C4D03AQFElJwdY2pzWw/profile-displayphoto-shrink_400_400/0/1577561303245?e=1637798400&v=beta&t=Xt9fLP8kM8bBnLlCRGnyG7SY0fTKAcu64YpV15ya2w0"
     ),
     Session(
         id = "2",
-        speaker = "Daria Nichitenco",
+        speaker = "Daria Nikitenko",
         date = "29 June",
         timeInterval = "19:00-21:00",
         description = "Ruby Constructs",
-        imageUrl = "https://media-exp3.licdn.com/dms/image/C4E03AQHJbY-WgG4wkg/profile-displayphoto-shrink_800_800/0/1611861938105?e=1629936000&v=beta&t=l6IqW6x1YCnWWbaG7_gu5ch7HnMkE9EN_hdxEIy3Clo"
+        imageUrl = "https://media-exp1.licdn.com/dms/image/C4E03AQHJbY-WgG4wkg/profile-displayphoto-shrink_400_400/0/1611861938105?e=1637798400&v=beta&t=Gb15NxurL0u5ehx0eff1l9paf5_DkH2hEz9oHZAELOs"
     ),
     Session(
         id = "3",
         speaker = "Eugen Mocan",
         date = "29 June",
-        timeInterval = "19:00-21:00",
+        timeInterval = "18:30-20:30",
         description = "Ruby Classes",
-        imageUrl = "https://media-exp3.licdn.com/dms/image/C5603AQElF7rnXU-U9w/profile-displayphoto-shrink_800_800/0/1540318247202?e=1629936000&v=beta&t=78a6r7QeE6_hVgKO8ke5Rmrsr71lMZ11aKZUFk1WGJc"
+        imageUrl = "https://media-exp1.licdn.com/dms/image/C5603AQElF7rnXU-U9w/profile-displayphoto-shrink_400_400/0/1540318247202?e=1637798400&v=beta&t=4_jWrEkNhaWAjS4JFvSmAeHdnH2SKt_uSmTDNpFDWUI"
     ),
     Session(
         id = "4",
@@ -40,7 +40,7 @@ val MockSessions = listOf(
         date = "01 July",
         timeInterval = "19:00-21:00",
         description = "Dev Environment Setup",
-        imageUrl = "https://media-exp3.licdn.com/dms/image/C4D03AQEb7hWJGVJk0w/profile-displayphoto-shrink_800_800/0/1620825152020?e=1629936000&v=beta&t=ABymvdUb_zuzPrXyQi-GXrQ37unP79dD1ThWn2HICIs"
+        imageUrl = "https://media-exp1.licdn.com/dms/image/C5603AQEPS7Og9t_LUA/profile-displayphoto-shrink_400_400/0/1626295596720?e=1637798400&v=beta&t=4gvGuNaFirclKrovMAnW6x2YYSewGb6zQqmTVrGvMpE"
     ),
     Session(
         id = "5",
